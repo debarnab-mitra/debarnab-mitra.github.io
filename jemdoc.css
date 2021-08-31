@@ -88,6 +88,23 @@ div.menu-category {
 	font-weight: bold;
 }
 
+div.menu-category1 {
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	margin-left: -10px;
+}
+
+div.menu-category2 {
+	margin-left: -10px;
+	padding-bottom: 0.4em;
+}
+
+div.menu-category3 {
+	margin-left: -4px;
+	padding-bottom: 0.4em;
+}
+
 div.menu-item {
 	padding-left: 16px;
 	text-indent: -16px;
@@ -374,4 +391,53 @@ table.imgtable1, table.imgtable1 td {
     border: none;
     text-align: left;
     padding:5px;
+}
+
+/* Style all font awesome icons */
+.fa {
+
+  padding: 1.5px;
+  font-size: 0.5px;
+  width: 12px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+/*.fa:hover {
+  opacity: 0.7;
+}*/
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-graduation-cap{
+color: black;
+
+}
+
+.fa-map-marker{
+color: black;
+
+}
+
+.fa-github{
+	color: black;
 }
